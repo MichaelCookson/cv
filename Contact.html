@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>📞 Contact Me</title>
+</head>
+
+<body>
+
+  <h1>Contact Me</h1>
+<hr>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Contact Type</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Linkedin Profile</td>
+        <td><a href="https://www.linkedin.com/in/michael-cookson-39ab584a/"><img src="Images\Linkedin-Logo.png" alt="Linkedin Logo" style="width:50px"></a></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><a href="mailto:mike@seafood.co.bw?subject=Contact">mike@seafood.co.bw</a></td>
+      </tr>
+      <tr>
+        <td>Mobile Phone</td>
+        <td><a href="tel:+267 72328015">+267 72328015</a></td>
+      </tr>
+      <tr>
+        <td>Office Phone</td>
+        <td><a href="tel:+267 3913039">+267 3913039</a></td>
+      </tr>
+  </table>
+  <hr>
+  <table cellspacing="10">
+    <form action="mailto:mike@seafood.co.bw?subject=Contact" method="post" enctype="text/plain">
+      <tr>
+        <td><label>First Name:</label></td>
+        <td><input type="text" name="First Name" value="" required>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Surname:</label></td>
+        <td><input type="text" name="Surname" value="" required></td>
+      </tr>
+      <tr>
+        <td><label>Sex</label>
+
+        </td>
+        <td><input type="text" list="SexList" name="Sex" required></td>
+        <datalist id="SexList">
+          <option value="Female"></option>
+          <option value="Male"></option>
+        </datalist>
+      </tr>
+      <tr>
+        <td><label>Date of Birth:</label></td>
+        <td><input type="date" name="Date of Birth" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" name="Email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="email@example.com" required></td>
+      </tr>
+      <tr>
+        <td><label>Mobile Number:</label></td>
+        <td><input type="tel" name="Mobile Number" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Your Message:</label></td>
+        <td><textarea name="Message" rows="5" cols="30" required></textarea></td>
+      </tr>
+      <tr>
+        <td><label></label></td>
+        <td><input type="submit"></td>
+      </tr>
+    </form>
+  </table>
+  </tbody>
+
+</body>
+
+</html>
